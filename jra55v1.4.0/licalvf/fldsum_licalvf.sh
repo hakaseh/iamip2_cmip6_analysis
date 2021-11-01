@@ -1,0 +1,2 @@
+cdo -fldsum -sellonlatbox,0,360,60,90 -yearmean -selyear,1958/2018 -mergetime ~/data/members/JRA55-do/landIce/day/licalvf/gr/v20190429/licalvf/licalvf_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-4-0_gr_*.nc licalvf_sum_n60_JRA55-do_1958-2018.nc
+cdo -fldsum -sellonlatbox,0,360,-90,-60 -yearmean -selyear,1958/2018 -mergetime ~/data/members/JRA55-do/landIce/day/licalvf/gr/v20190429/licalvf/licalvf_input4MIPs_atmosphericState_OMIP_MRI-JRA55-do-1-4-0_gr_*.nc licalvf_sum_s60_JRA55-do_1958-2018.nc
